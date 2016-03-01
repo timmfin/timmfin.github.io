@@ -1,0 +1,7 @@
+/gallery/sp_getthumb.php => old-wp-gallery images. Thumbs?
+/gallery/cache/ images?
+Finish replacing flickr images with square brackets
+Image styles of flickrwrapper, like in /Users/timmfin/Dropbox/Development/tf-static/timlog-v3/2006/04/05/opening-day-with-the-reds/index.html
+index.php?p=23 links?
+http://www.timmfin.net/flashGallery/ busted... need DB access?
+Artwork link in /tf-static/timlog-v3/2005/02/18/artwork/index.html... in the old gallery

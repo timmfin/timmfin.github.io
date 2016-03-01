@@ -1,0 +1,9 @@
+{
+  "name": "timmfin.github.io",
+  "private": true,
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "ejs-cli": "^1.0.1",
+    "unescape": "^0.1.1"
+  }
+}
