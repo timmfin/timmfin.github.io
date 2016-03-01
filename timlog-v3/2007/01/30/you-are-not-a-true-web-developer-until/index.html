@@ -1,0 +1,73 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>You are not a true web developer until...</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+
+        <link rel="stylesheet" href="./normalize.css">
+        <!-- <link rel="stylesheet" href="css/normalize.min.css"> -->
+        <!-- <link rel="stylesheet" href="css/main.css"> -->
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <h1>You are not a true web developer until...</h1>
+        <time datetime="2007-01-31 03:57:46Z">
+            Jan 31 2007
+        </time>
+
+        <div class=post>
+            You have used <a href="http://www.getfirebug.com">firebug</a>. I've been an avid firebug user the minute I first heard about it -- starting with the initial appeal of CSS inspection, then integrated error reporting, and then getting hooked on the interactive javascript console. Firebug .3 was a big step up from the built in DOM inspector, but still it had its problems with generated content, a quirky debugger, and the inability to see inherited styles.
+
+Then firebug 1.0 came along obliterating these problems and brought a ton (no a metric *#$! ton) of great new functionality. Its sad enough that I'm extolling a piece of software publicly... its even sadder that I was jumping up and down (literally) in my apartment when I first tried out firebug 1.0 beta. Yeesh...
+
+But I do have a good excuse. I do a lot of web development, I practically live and breathe it (though I have not been doing it much on the side lately). If a tool came along that made you twice as productive for your job/hobby, you'd be happy too -- right?! And it is not just about productivity, its also about joy of use. I used to dread debugging nasty CSS issues. It sometimes took hours to figure out that that 3px gap was caused by a measly missing space between two selectors. Now I feel like I'm in control and am confident that bug will be easy to find (and fix)! So please, before you label me as too big of a dork remember that you'd be pretty happy too to find something that made your life so much easier :).
+
+So for the doubtful, what can firebug do?
+<ul>
+	<li>Click to inspect any part of the page to see its styles (and all the styles that have been inherited and/or overwritten), box model, dom properties, or html source</li>
+	<li>Dynamic editing of the page. HTML, CSS, and javascript. Just click to edit a field. The page will update to your changes in real time. As a bonus the edit fields have auto-complete (just like every other place you can type)</li>
+	<li>Solid javascript debugging with really quick and easy watch expressions. I knew that I should have been debugging instead of logging messages for a long time, but now I can finally use a debugger that isn't painful (sorry Venkman... and firebug .3).</li>
+	<li>Profiling!!</li>
+	<li>Graphic visualization of all the http requests made on a page, including everything you need to know for page optimization!!!</li>
+	<li>Easily navigate between contexts since nearly everything in firebug is a link. Want to look into the properties of a javascript object? Click it. Want to see the http headers of a request? Click it. Want to inspect an element in the source view? Click it. This UI paradigm easily leads to feature discovery since you'll always try to click on something to find out more about it -- and you will quickly realize that it just feels right.</li>
+	<li>And many things are easily discoverable without a click. Just hover over any image string and a popup will appear. Same with variables while debugging and with hex colors (no more memorizing hex codes)!</li>
+</ul>
+And after watching a <a href="http://ajaxian.com/archives/joe-hewitt-firebug-power-user-demo">video of Joe Hewitt demoing his creation</a>, I still learned more features:
+<ul>
+	<li>When editing a numeric field such as padding just press up or down with the arrow keys to change the padding amount, slick!</li>
+	<li>Extremely simple conditional breakpoints. I used to think that you couldn't do that in firebug, but all you have to do is right click a breakpoint and type in an arbitrary javascript expression.</li>
+	<li>Automatic bookmarklet "scrunching" when copying from the multi-line console</li>
+	<li>Keyboard shortcuts.. I can't live without ctrl-shift-t and ctrl-shift-r in eclipse, and now I know I can do ctrl-shift-space in firebug. Oh and I finally found out that I can get rid of the Wed Developer Extension's shift-ctrl-c shortcut so I can use it for firebug :)</li>
+</ul>
+If you still are not satiated, watch this <a href="http://files.jnewland.com/firebug.mov">screen cast</a>.
+
+<a title="Firebug is a free web development tool for Firefox" href="http://www.getfirebug.com/?link=3" />
+<div style="text-align: center"><a title="Firebug is a free web development tool for Firefox" href="http://www.getfirebug.com/?link=3"><img border="0" alt="Firebug - Web Development Evolved" src="http://www.getfirebug.com/images/firebug3.jpg" /></a></div>
+Go and try it, and if you love it please <a href="http://www.getfirebug.com/contribute.html">donate</a> to the guy. He deserves it.
+I'm very surprised Joe hasn't been picked up by one of the big web companies yet... He single-handedly has saved them potentially millions of dollars in man-hours. Maybe he has just turned them all down :)
+        </div>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!--
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+        -->
+    </body>
+</html>
+
